@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Registration form</title>
+  <link rel="stylesheet" type="text/css"href="css/style.css" >
+  <style type="text/css">
+  *{
+      margin:0;
+      padding:0;
+    }
+    body{
+       background-image: url(../Downloads/king.jpg);
+                  background-size:100%700px;
+     background-repeat: no-repeat;
+    }
+
+    h1
+    {
+        text-align:center;
+        padding:20px;
+    }
+         h2
+    {
+        text-align:center;
+        padding:20x;
+    }
+    *.register{
+    background: #2d85;
+    width: 500px;
+    margin: 0px 0px 0px 430px;
+    color: black;
+    font-size: 18px;
+    padding:20px;
+    border-radius:10px;
+
+    }
+    #register{
+        margin-left:50px;
+    }
+     label{
+         color:black;
+         font-family:sans-serif;
+         font-size:18px;
+         font-size:italic;
+
+     }
+      #name{
+              width: 300px;
+    height: 20px;
+    border: none;
+    border-radius: 3px;
+    outline: 0px;
+    padding: 7px;
+      }
+      #ph{
+          width: 60px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0px;
+      }
+       #num{
+          width: 240px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0px;
+       }
+       #submit{
+           width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 600px;
+    border:none;
+    border-radius:2px;
+    outline:0px;
+}
+       }
+
+  </style>
+</head>
+
+<body>
+
+<h1>Registration form</h1>
+<div class="register">
+    <h2>register here</h2>
+    <form method="post" id="register" action="">
+
+        <label> First name:</label><br>
+        <input type="text" name="Fname" id="name"
+        placeholder="Enter your  First name"><br><br>
+        <label> Last name:</label><br>
+        <input type="text" name="Lname" id="name"
+        placeholder="Enter your First name"><br><br>
+        <label> Phone no:</label><br>
+        <select id="ph">
+            <option>"91"</option>
+            <option>"92"</option>
+            <option>"102"</option>
+            <option>"+2"</option>
+            <option>"94"</option>
+               <input type="number" name="Phone number" id="num"
+                placeholder="Enter your number"><br><br>
+        <label> Email:</label><br>
+          <input type="text" name="Email" id="name"
+        placeholder="Enter your email"><br><br>
+        <label> Password:</label><br>
+          <input type="text" name="pasword" id="name"
+        placeholder="Enter your password"><br><br>
+        <label> retype password:</label><br>
+          <input type="text" name=retype password" id="name"
+        placeholder="retye your password"><br><br>
+
+        <input type="radio" name="Female" id ="Female"><span id="female">&nbsp; Female</span>&nbsp;&nbsp;
+        <input type="radio" name="male" id ="male"><span id="male">&nbsp; male</span>&nbsp;&nbsp;
+        <input type="radio" name="Other" id ="other"><span id="Other">&nbsp; Other</span>&nbsp;&nbsp; <br><br>
+        <input type="submit" value="submit" id="submit">
+
+    </form>
+</div>
+</body>
+
+</html>
